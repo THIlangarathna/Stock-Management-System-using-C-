@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Stock.exe" version="1.0.0.1" publicKeyToken="370a48ee726e1072" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Stock" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Stock.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Stock.exe" size="28271112">
+      <assemblyIdentity name="Stock" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hQvxYysDo7ff+V5Ry7CXV/vtQDxSOeLxg9C3CveB6tU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="New.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>if1YSWArOkql0quAJxi9ijjhjBnUwxxGPlQwZe4zCks=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="New_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8HaJk0DzsPeSY53voG1poMcXZGugJLte6cfKLTxVuHU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Stock.exe.config" size="544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jOlqVCncVVQpfeJNPUC3ncwvTelSG62mwi+mlEPBbiA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Thilina\Thilina Ilangarathna" issuerKeyHash="982fc06f853a2487bf4382ddd03e67108b8b64f0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8OSfDMZ8nCp0BZEm69JjsYX2tnfoshwg3GuRIM4xlXw=</DigestValue></Reference></SignedInfo><SignatureValue>YKwYrZxhxYx5z2XCasJX/jHQFX0KrR/Awdg7CxeJC2PEppzWUixuVe2Bb4VV0gXjLBSNSWsvCdCRGukvZUQnL1jq2RR1b1OFHcA8C+m0rS+WhE0Clz5K83H8bu5rMFLR5Gax4HVR33/DG3Gjyo6rxyvfwploBXgyrYySNH6D6ww=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>8AldrB31rPhU/yWKJHIw78nuuPqqlAS9QwF9FRMNEprAYMiOQs/lA/eLU5YosrVkFS14KXbP+T4nzfUqNLj/E4C+NvE79zJbntbSz57GvU1z61YR/Kz5jP1hKUF4spJTGRrhIIWNUyHPrXe+qJSl2E9veh5+cnQBn+b/j+RePr0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7c9531ce20916bdc201cb2e877b6f685b163d2eb269105742a9c7cc60c9fe4f0" Description="" Url=""><as:assemblyIdentity name="Stock.exe" version="1.0.0.1" publicKeyToken="370a48ee726e1072" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Thilina\Thilina Ilangarathna</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kHPhFFwGHNoOq1kfLHAi5kPJlzggBPJM0Jj2ebCEqxo=</DigestValue></Reference></SignedInfo><SignatureValue>4QOFZmze97VZCMiLpdo9yYx32wfXNjb0rWW5/OTW/euol+heffHbyPFKU+5VK3f3bDvBx6EiimNiSGc1dCNZ2f8GArk51DJ4mvvQxl+f26OTbVTvkdpG0jcdidGYt61iFv7EyGAyDNFJnY/q7HxuB8NoAlj65USGXVywdkQdmPU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>8AldrB31rPhU/yWKJHIw78nuuPqqlAS9QwF9FRMNEprAYMiOQs/lA/eLU5YosrVkFS14KXbP+T4nzfUqNLj/E4C+NvE79zJbntbSz57GvU1z61YR/Kz5jP1hKUF4spJTGRrhIIWNUyHPrXe+qJSl2E9veh5+cnQBn+b/j+RePr0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICCTCCAXKgAwIBAgIQVENaMZEO1KpB1VVItTH9GDANBgkqhkiG9w0BAQsFADBDMUEwPwYDVQQDHjgAVABoAGkAbABpAG4AYQBcAFQAaABpAGwAaQBuAGEAIABJAGwAYQBuAGcAYQByAGEAdABoAG4AYTAeFw0xOTA4MDQxODQzMjJaFw0yMDA4MDQwMDQzMjJaMEMxQTA/BgNVBAMeOABUAGgAaQBsAGkAbgBhAFwAVABoAGkAbABpAG4AYQAgAEkAbABhAG4AZwBhAHIAYQB0AGgAbgBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDwCV2sHfWs+FT/JYokcjDvye64+qqUBL1DAX0VEw0SmsBgyI5Cz+UD94tTliiytWQVLXgpds/5PifN9So0uP8TgL428Tv3Mlue1tLPnsa9TXPrVhH8rPmM/WEpQXiyklMZGuEghY1TIc+td76olKXYT296Hn5ydAGf5v+P5F4+vQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAF4hDw65ArB4IKzMfjc5lugobVu/NzNdVE4VOoiqdYn2Xj1GN7okQUZF4v4qXGNeGf6k209Oy80zm61MWPhPMYjYc/1pC19298F3qDTB9vMgHJNZIGDvIwhSqyX2v5jV61ipNMhqmYlH9E+ufkZ+pWS1Tegc7BacndDkBopCE/k4</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
